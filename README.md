@@ -1,5 +1,5 @@
-# I had issues trying to spell words, so i created this script.
-
+# Spelling Alphabet Converter
+I had issues trying to spell words, so i created this script.
 Input a word that you need to spell.
 
 Example:
