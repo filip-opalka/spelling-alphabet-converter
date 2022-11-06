@@ -36,9 +36,14 @@ def spellingAlphabetConverter(word):
         "8": "Eight",
         "9": "Nine",
         "0": "Zero",
-        "@": "At",
-        ".": "Dot",
-        " ": " "
+        "@": "<At>",
+        " ": "<Space>",
+        ".": "<Dot>",
+        ",": "<Comma>",
+        "?": "<Question Mark>",
+        "!": "<Exclamation Point>",
+        "<": "<Less Than>",
+        ">": "<More Than>"
     }
     for letter in word:
         print(words[letter.lower()], end = ' ')
