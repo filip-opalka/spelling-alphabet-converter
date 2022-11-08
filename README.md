@@ -13,4 +13,4 @@ Example:
 Github Repository
 
 Output:
-Golf India Tango Hotel Uniform Bravo   Romeo Echo Papa Oscar Sierra India Tango Oscar Romeo Yankee
+Golf India Tango Hotel Uniform Bravo <Space> Romeo Echo Papa Oscar Sierra India Tango Oscar Romeo Yankee
