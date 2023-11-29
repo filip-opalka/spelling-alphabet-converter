@@ -42,11 +42,26 @@ def spellingAlphabetConverter(word):
         ",": "<Comma>",
         "?": "<Question Mark>",
         "!": "<Exclamation Point>",
+        "+": "<Plus>",
+        "-": "<Minus>",
+        "/": "<Slash>",
+        "*": "<Asterisk>",
+        ";": "<Semicolon>",
+        ":": "<Colon>",
         "<": "<Less Than>",
         ">": "<More Than>"
     }
     for letter in word:
-        print(words[letter.lower()], end = ' ')
+        try:
+            print(words[letter.lower()], end = ' ')
+        except:
+            print("<wtf is this znak>")
     print('')
+    print('')
+print('--------------------')
+print('| WordSpeller v2.0 |')
+print('--------------------')
+print('')
+
 while True:
-    spellingAlphabetConverter(input('Input the word to convert to Spelling alphabet:'))
+    spellingAlphabetConverter(input('Input the word to spell out:'))
