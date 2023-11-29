@@ -55,7 +55,7 @@ def spellingAlphabetConverter(word):
         try:
             print(words[letter.lower()], end = ' ')
         except:
-            print("<wtf is this znak>")
+            print("<! Unknown character !>")
     print('')
     print('')
 print('--------------------')
