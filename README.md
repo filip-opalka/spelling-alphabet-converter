@@ -3,7 +3,7 @@ I had issues trying to spell words, so i created this script.
 Input a word that you need to spell. You definitely need python installed: https://www.python.org/downloads/.
 
 ## How to create a easily runable file that starts the script.
-This file can be doubleclicked to open, or you can put the code in the OS startup script.
+This file can be doubleclicked to open, or you can put the code in your OS startup script.
 
 ### Windows:
 Create a .bat file with the following content, fill in the location of the wordSpeller.py file
