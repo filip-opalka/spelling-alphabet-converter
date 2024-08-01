@@ -2,22 +2,6 @@
 I had issues trying to spell words, so i created this script.
 Input a word that you need to spell. You definitely need python installed: https://www.python.org/downloads/.
 
-Example:
-Filip
-Output:
-Foxtrot India Lima India Papa
-
-Example:
-Github Repository
-Output:
-Golf India Tango Hotel Uniform Bravo <Space> Romeo Echo Papa Oscar Sierra India Tango Oscar Romeo Yankee
-
-Example:
-google.com
-Output:
-Golf Oscar Oscar Golf Lima Echo <Dot> Charlie Oscar Mike
-
-
 ## How to create a easily runable file that starts the script.
 This file can be doubleclicked to open, or you can put the code in the OS startup script.
 
@@ -41,3 +25,23 @@ You need to change the permissions for the file, do it in the command line.
 cd <file location>
 chmod +x wordSpeller.command
 ```
+
+## Examples:
+Input:
+Filip
+
+Output:
+Foxtrot India Lima India Papa
+
+
+Input:
+Github Repository
+
+Output:
+Golf India Tango Hotel Uniform Bravo <Space> Romeo Echo Papa Oscar Sierra India Tango Oscar Romeo Yankee
+
+
+Input:
+google.com
+Output:
+Golf Oscar Oscar Golf Lima Echo <Dot> Charlie Oscar Mike
